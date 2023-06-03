@@ -13,8 +13,6 @@ jobs:
       
             - name: Run the action
               uses: ./
-              with:
-                node-registry-url: "https://registry.npmmirror.com/"
       
             - name: 'Test: .npmrc'
               run: pnpm config get registry
